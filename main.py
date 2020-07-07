@@ -38,7 +38,7 @@ def fish_move():
     fish_image = pygame.transform.flip(fish_image, False, True)
     fish_rect.move_ip(0, speed[1])
 
-  if fish_rect.top >= 600:
+  if fish_rect.bottom >= 600:
     speed[1] *= -1
     fish_image = pygame.transform.flip(fish_image, False, True)
     fish_rect.move_ip(0, speed[1])
