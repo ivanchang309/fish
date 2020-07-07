@@ -1,4 +1,5 @@
 import pygame
+import random
 
 pygame.init()
 screen_info = pygame.display.Info()
